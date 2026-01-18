@@ -53,6 +53,7 @@ class SecurityController extends Controller
             ]
         );
 
+        
         return back()->with('success', "L'IP $ip è stato bloccato manualmente.");
     }
 }
